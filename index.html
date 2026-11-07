@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Zahra AI Studio - Intelligent AI solutions, digital products and learning experiences.">
+<title>Zahra AI Studio | Ideas into Intelligent Solutions</title>
+<style>
+:root {
+  --navy:#102d35;
+  --teal:#176b68;
+  --gold:#c7a66a;
+  --cream:#f8f5ee;
+  --white:#ffffff;
+  --text:#263c40;
+}
+* {box-sizing:border-box;margin:0;padding:0}
+body {
+  font-family:Tahoma,Arial,sans-serif;
+  background:var(--cream);
+  color:var(--text);
+  line-height:1.9;
+}
+header {
+  background:var(--navy);
+  color:white;
+  padding:18px 7%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:15px;
+}
+.logo {font-size:23px;font-weight:bold;color:#e6cf9f}
+nav {display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+nav a {color:white;text-decoration:none;font-size:14px}
+button {
+  cursor:pointer;
+  border:0;
+  border-radius:8px;
+  padding:10px 17px;
+  font-weight:bold;
+}
+.lang {background:var(--gold);color:var(--navy)}
+.hero {
+  background:linear-gradient(135deg,#102d35,#176b68);
+  color:white;
+  text-align:center;
+  padding:105px 20px;
+}
+.hero h1 {font-size:clamp(30px,5vw,52px);color:#f0d9a8}
+.hero h2 {font-size:23px;margin:15px 0}
+.hero p {max-width:680px;margin:15px auto;color:#e4ece9}
+.cta {
+  display:inline-block;
+  margin-top:25px;
+  padding:12px 25px;
+  background:var(--gold);
+  color:var(--navy);
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+}
+section {padding:65px 7%}
+.section-title {text-align:center;margin-bottom:35px}
+.section-title h2 {color:var(--teal);font-size:30px}
+.section-title p {color:#687b7b}
+.cards {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:22px;
+}
+.card {
+  background:white;
+  padding:26px;
+  border-radius:15px;
+  border:1px solid #e8e2d5;
+  box-shadow:0 5px 18px #102d3510;
+}
+.card .symbol {font-size:30px}
+.card h3 {color:var(--teal);margin:10px 0}
+.card p {font-size:14px;color:#617071}
+.about {
+  background:#e9eee9;
+  text-align:center;
+}
+.about p {max-width:750px;margin:auto}
+.contact {text-align:center}
+.contact a {color:var(--teal);font-weight:bold}
+footer {
+  background:var(--navy);
+  color:#e9e4d7;
+  text-align:center;
+  padding:25px;
+  font-size:13px;
+}
+[hidden] {display:none!important}
+@media(max-width:600px) {
+  header {justify-content:center}
+  nav {justify-content:center}
+  .hero {padding:75px 18px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">ZAHRA AI STUDIO</div>
+  <nav>
+    <a href="#home" data-fa="خانه" data-en="Home">خانه</a>
+    <a href="#about" data-fa="درباره ما" data-en="About">درباره ما</a>
+    <a href="#projects" data-fa="پروژه‌ها" data-en="Projects">پروژه‌ها</a>
+    <a href="#services" data-fa="خدمات" data-en="Services">خدمات</a>
+    <a href="#contact" data-fa="ارتباط" data-en="Contact">ارتباط</a>
+    <button class="lang" onclick="switchLanguage()">English</button>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <h1 data-fa="به Zahra AI Studio خوش آمدید"
+      data-en="Welcome to Zahra AI Studio">
+      به Zahra AI Studio خوش آمدید
+  </h1>
+  <h2 data-fa="ایده‌ها را به راهکارهای هوشمند تبدیل می‌کنیم"
+      data-en="Ideas into Intelligent Solutions">
+      ایده‌ها را به راهکارهای هوشمند تبدیل می‌کنیم
+  </h2>
+  <p data-fa="ما در زمینه ساخت ابزارهای هوش مصنوعی، محصولات دیجیتال و تجربه‌های آموزشی نوآورانه فعالیت می‌کنیم."
+     data-en="We build AI-powered tools, digital products and innovative learning experiences.">
+     ما در زمینه ساخت ابزارهای هوش مصنوعی، محصولات دیجیتال و تجربه‌های آموزشی نوآورانه فعالیت می‌کنیم.
+  </p>
+  <a href="#projects" class="cta"
+     data-fa="مشاهده پروژه‌ها"
+     data-en="Explore Projects">مشاهده پروژه‌ها</a>
+</section>
+
+<section id="about" class="about">
+  <div class="section-title">
+    <h2 data-fa="درباره Zahra AI Studio"
+        data-en="About Zahra AI Studio">درباره Zahra AI Studio</h2>
+  </div>
+  <p data-fa="Zahra AI Studio یک استودیوی خلاق برای طراحی و توسعه راهکارهای هوشمند است. هدف ما استفاده از هوش مصنوعی برای ساده‌تر کردن کارها، توسعه دانش و خلق محصولات دیجیتال کاربردی است."
+     data-en="Zahra AI Studio is a creative studio focused on designing and developing intelligent solutions. Our mission is to use AI to simplify work, expand knowledge and create useful digital products.">
+     Zahra AI Studio یک استودیوی خلاق برای طراحی و توسعه راهکارهای هوشمند است. هدف ما استفاده از هوش مصنوعی برای ساده‌تر کردن کارها، توسعه دانش و خلق محصولات دیجیتال کاربردی است.
+  </p>
+</section>
+
+<section id="projects">
+  <div class="section-title">
+    <h2 data-fa="پروژه‌های هوشمند"
+        data-en="AI Projects">پروژه‌های هوشمند</h2>
+    <p data-fa="ایده‌هایی که به محصولات واقعی تبدیل می‌شوند"
+       data-en="Ideas becoming real digital products">
+       ایده‌هایی که به محصولات واقعی تبدیل می‌شوند
+    </p>
+  </div>
+  <div class="cards">
+    <article class="card">
+      <div class="symbol">🧪</div>
+      <h3 data-fa="تحلیلگر هوشمند آزمایش خون"
+          data-en="AI Blood Test Analyzer">تحلیلگر هوشمند آزمایش خون</h3>
+      <p data-fa="استخراج اطلاعات آزمایش، بررسی محدوده‌های مرجع و تولید گزارش قابل فهم."
+         data-en="Extract lab results, compare reference ranges and generate understandable reports.">
+         استخراج اطلاعات آزمایش، بررسی محدوده‌های مرجع و تولید گزارش قابل فهم.
+      </p>
+    </article>
+    <article class="card">
+      <div class="symbol">🎬</div>
+      <h3 data-fa="ایجنت تولید محتوا"
+          data-en="AI Content Creator">ایجنت تولید محتوا</h3>
+      <p data-fa="تولید ایده، سناریو، متن تبلیغاتی و محتوای شبکه‌های اجتماعی."
+         data-en="Generate ideas, scripts, marketing copy and social media content.">
+         تولید ایده، سناریو، متن تبلیغاتی و محتوای شبکه‌های اجتماعی.
+      </p>
+    </article>
+    <article class="card">
+      <div class="symbol">📚</div>
+      <h3 data-fa="مربی آموزشی هوشمند"
+          data-en="AI Learning Assistant">مربی آموزشی هوشمند</h3>
+      <p data-fa="طراحی برنامه یادگیری، تمرین و ارزیابی پیشرفت."
+         data-en="Personalized learning plans, exercises and progress assessment.">
+         طراحی برنامه یادگیری، تمرین و ارزیابی پیشرفت.
+      </p>
+    </article>
+    <article class="card">
+      <div class="symbol">📈</div>
+      <h3 data-fa="ژورنال معاملاتی هوشمند"
+          data-en="AI Trading Journal">ژورنال معاملاتی هوشمند</h3>
+      <p data-fa="ثبت و بررسی معاملات و تحلیل عملکرد معاملاتی."
+         data-en="Track trades and analyze trading performance.">
+         ثبت و بررسی معاملات و تحلیل عملکرد معاملاتی.
+      </p>
+    </article>
+    <article class="card">
+      <div class="symbol">🛍️</div>
+      <h3 data-fa="ایجنت فروش هوشمند"
+          data-en="AI Sales Assistant">ایجنت فروش هوشمند</h3>
+      <p data-fa="ساخت کاتالوگ، معرفی محصولات و کمک به بازاریابی."
+         data-en="Create catalogs, introduce products and support marketing.">
+         ساخت کاتالوگ، معرفی محصولات و کمک به بازاریابی.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section id="services">
+  <div class="section-title">
+    <h2 data-fa="خدمات ما" data-en="Our Services">خدمات ما</h2>
+  </div>
+  <div class="cards">
+    <article class="card">
+      <h3 data-fa="راهکارهای هوش مصنوعی"
+          data-en="AI Solutions">راهکارهای هوش مصنوعی</h3>
+      <p data-fa="طراحی ابزارها و ایجنت‌های هوشمند."
+         data-en="Designing intelligent tools and AI agents.">
+         طراحی ابزارها و ایجنت‌های هوشمند.
+      </p>
+    </article>
+    <article class="card">
+      <h3 data-fa="تولید محتوای دیجیتال"
+          data-en="Digital Content">تولید محتوای دیجیتال</h3>
+      <p data-fa="طراحی و تولید محتوای خلاقانه و تبلیغاتی."
+         data-en="Creative and promotional content production.">
+         طراحی و تولید محتوای خلاقانه و تبلیغاتی.
+      </p>
+    </article>
+    <article class="card">
+      <h3 data-fa="آموزش و یادگیری"
+          data-en="Education">آموزش و یادگیری</h3>
+      <p data-fa="توسعه تجربه‌های آموزشی با کمک هوش مصنوعی."
+         data-en="Building AI-powered learning experiences.">
+         توسعه تجربه‌های آموزشی با کمک هوش مصنوعی.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="section-title">
+    <h2 data-fa="با ما در ارتباط باشید"
+        data-en="Let's Connect">با ما در ارتباط باشید</h2>
+  </div>
+  <p data-fa="برای همکاری و پیشنهاد پروژه با ما در ارتباط باشید."
+     data-en="Contact us for collaborations and project inquiries.">
+     برای همکاری و پیشنهاد پروژه با ما در ارتباط باشید.
+  </p>
+  <p style="margin-top:18px">
+    <a href="https://github.com/zahrasalehi101063-lab">
+      GitHub Profile
+    </a>
+  </p>
+</section>
+</main>
+
+<footer>
+  © 2026 Zahra AI Studio | Ideas into Intelligent Solutions
+</footer>
+
+<script>
+let currentLanguage = "fa";
+
+function switchLanguage() {
+  currentLanguage = currentLanguage === "fa" ? "en" : "fa";
+  document.documentElement.lang = currentLanguage;
+  document.documentElement.dir = currentLanguage === "fa" ? "rtl" : "ltr";
+
+  document.querySelectorAll("[data-fa]").forEach(element => {
+    element.textContent = element.dataset[currentLanguage];
+  });
+
+  document.querySelector(".lang").textContent =
+    currentLanguage === "fa" ? "English" : "فارسی";
+}
+</script>
+
+</body>
+</html>
